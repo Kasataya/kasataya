@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <header class="hero">
+        <div class="container">
+          <div class="profile-wrapper">
+            <img src="profile.jpg" alt="Kassem Ataya" class="profile-image" />
+            <h1>Kassem Ataya</h1>
+            <p>Data Engineer  |  Power Platform Developer  |  Data Analyst  |  Data Scientist</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+          </div>
+        </div>
+      </header>
+      
+      
+      
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
+    <p class="summary">I’m a passionate and solutions-driven Power Platform Developer and Data Engineer with hands-on experience designing intelligent business applications, crafting scalable ETL pipelines, and delivering actionable insights through Power BI across industry leaders like DTE Energy, General Motors, and Amway. From automating complex workflows with Power Automate and Apache Airflow to architecting secure, role-based SharePoint integrations and predictive analytics models, I thrive at the intersection of data, innovation, and impact. My work has empowered HR, finance, and operations teams with real-time, data-driven decision-making tools, and I bring a strong foundation in Python, SQL, cloud platforms, and cross-functional collaboration to every project I lead. I’m especially drawn to teams and organizations that embrace growth by offering opportunities to explore cloud technologies and machine learning, as these are areas I’m eager to dive deeper into and grow within.</p>
+  </section>
+
+
+<!-- DTE -->
+
+
+  <section id="experience" class="section experience-section">
+    <h2 class="section-title">Experience</h2>
+  
+    <div class="experience-item">
+      <button class="experience-header" onclick="toggleExperience(this)">
+        <div class="header-left">
+          <h3 class="job-title">Power Platform Developer <span>@ DTE Energy</span></h3>
+          <p class="date-range"><em>Jan 2023 – Oct 2024</em></p>
+        </div>
+        <div class="arrow">&#9660;</div> 
+      </button>
+  
+      <div class="experience-details">
+        <p class="summary">Transitioned from a Data Engineering co-op to a full-time Power Platform Developer after being one of only four interns retained during a company-wide program restructure. Sole developer in my department, responsible for designing data-driven applications and automation solutions supporting operational and financial teams.</p>
+        <ul class="highlight-list">
+          <li>Designed, developed, and deployed business-critical applications using Microsoft Power Platform—including Power Apps, Power Automate, and Power BI—driving automation, enhancing data-driven decision-making, and aligning with SDLC phases from requirements gathering to deployment.</li>
+          <li>Led the development of interactive dashboards and finance reporting tools in Power BI to track contractor spending, budget utilization, and job completion KPIs—supporting fiscal transparency and strategic planning for the Corrosion Control department.</li>
+          <li>Engineered secure, scalable data systems by leveraging SharePoint data tables and SharePoint groups to implement structured data storage, role-based access controls, and seamless app integration, streamlining workflows across departments.</li>
+          <li>Engaged in Agile ceremonies and stakeholder collaboration to continuously improve app functionality, reporting pipelines, and system integrations, enhancing performance while aligning with SDLC best practices like iterative development and feedback loops.</li>
+        </ul>
+        <div class="tech-stack-grid">
+          <span>Power Platform</span>
+          <span>Power Apps</span>
+          <span>Power BI</span>
+          <span>Power Automate</span>
+          <span>DAX</span>
+          <span>SharePoint</span>
+          <span>Dataverse</span>
+          <span>Oracle</span>
+          <span>SQL</span>
+          <span>SQL Server</span>
+          <span>Power Pages</span>
+          <span>HTML</span>
+        </div>
+      </div>
+    </div>
+
+<!-- General Motors -->
+
+    <div class="experience-item">
+        <button class="experience-header" onclick="toggleExperience(this)">
+          <div class="header-left">
+            <h3 class="job-title">Data Scientist - Intern <span>@ General Motors</span></h3>
+            <p class="date-range"><em>Apr 2024 – Aug 2024</em></p>
+          </div>
+          <div class="arrow">&#9660;</div> <!-- Down arrow -->
+        </button>
+    
+        <div class="experience-details">
+          <p class="summary">
+            Led a capstone project for General Motors, following the full Software Development Lifecycle (SDLC) from requirements gathering, system design, and development to testing, deployment, and maintenance. Developed Python-based ETL pipelines to extract and process federal election data from public APIs, ensuring data accuracy and reliability. Built dynamic Power BI dashboards to visualize key metrics and deliver actionable insights. Oversaw technical architecture, sprint planning, task management, and client communications to ensure project success and real-world impact.
+          </p>
+          <ul class="highlight-list">
+            <li>Engineered Python-based ETL pipelines to extract and integrate federal election data from APIs into SQL Server, ensuring seamless data availability and system optimization.</li>
+            <li>Designed predictive analytics models and developed dynamic Power BI dashboards to drive data visualization and actionable insights for stakeholders.</li>
+            <li>Automated data ingestion workflows and optimized SQL queries, significantly enhancing system performance, data accessibility, and reliability.</li>
+            <li>Collaborated with cross-functional teams and stakeholders in Agile ceremonies to define business requirements, demonstrate progress, and deliver scalable analytics solutions.</li>            
+          </ul>
+          <div class="tech-stack-grid">
+            <span>Python</span>
+            <span>SQL</span>
+            <span>SQL Server</span>
+            <span>APIs (RESTful APIs)</span>
+            <span>Power BI</span>
+            <span>Pandas</span>
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>VSCode</span>
+          </div>
+        </div>
+      </div>
+
+<!-- Amway -->
+
+      <div class="experience-item">
+        <button class="experience-header" onclick="toggleExperience(this)">
+          <div class="header-left">
+            <h3 class="job-title">Data Engineer - Intern <span>@ Amway</span></h3>
+            <p class="date-range"><em>Apr 2023 – Aug 2023</em></p>
+          </div>
+          <div class="arrow">&#9660;</div> <!-- Down arrow -->
+        </button>
+    
+        <div class="experience-details">
+          <p class="summary">Supported enterprise data modernization by converting Ultrex workflows into Google Cloud BigQuery data tables. Developed Python scripts to automate the extraction of tabular data from PDFs into Excel formats. Collaborated with sales and finance teams on an enterprise pricing metric project, helping identify inefficient products and optimize pricing strategies during post-COVID supply chain disruptions.</p>
+          <ul class="highlight-list">
+            <li>Developed & optimized ETL workflows to clean, transform, and load raw data, ensuring seamless integration with business intelligence platforms.</li>
+            <li>Migrated Alteryx workflows to Google Cloud Platform (GCP) leveraging SQL transformations, significantly improving data processing performance.</li>
+            <li>Built a Python-based PDF-to-CSV automation tool, streamlining document processing and reducing manual data entry.</li>
+            <li>Implemented workflow orchestration using Apache Airflow, enhancing automation and reliability of complex data pipelines.</li>
+          </ul>
+          <div class="tech-stack-grid">
+            <span>Python</span>
+            <span>SQL</span>
+            <span>Google Cloud Platform (GCP)</span>
+            <span>Big Query (GCP)</span>
+            <span>Apache Airflow</span>
+            <span>Alteryx</span>
+          </div>
+        </div>
+      </div>
+  
+    <!-- Repeat experience-item for more jobs -->
+  </section>
+  
+  
+  <script>
+    function toggleExperience(button) {
+      const details = button.nextElementSibling;
+      details.classList.toggle('open');
+      button.querySelector('.arrow').classList.toggle('rotate');
+    }
+    </script>
+    
+
+
+
+
+
+    <section id="projects" class="section">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>Project Name1</h3>
+            <p>Project Section Still Under Development</p>
+            <div class="tech-stack-grid">
+                <span>Tech1</span>
+                <span>Tech2</span>
+                <span>Tech3</span>
+                <span>Tech4</span>
+              </div>
+            <a href="https://github.com/your-repo1" target="_blank">View on GitHub</a>
+          </div>
+
+          <!-- Add more project cards as needed -->
+        </div>
+      </section>
+      
+
+  <section id="skills" class="section">
+    <h2 class="section-title">Skills</h2>
+    <div class="tech-stack-skills-grid">
+      <span>Python</span>
+      <span>SQL</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>Power BI</span>
+      <span>Power Platform</span>
+      <span>Power Automate</span>
+      <span>Power Apps</span>
+      <span>Low code Platforms</span>
+      <span>Data Visualization</span>
+      <span>Leadership</span>
+    </div>
+  </section>
+  
+
+  <section id="contact" class="section">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-card">
+      <p><strong>Name:</strong> Kassem Ataya</p>
+      <p><strong>Email:</strong> <a href="mailto:kace.might42@gmail.com">kace.might42@gmail.com</a></p>
+      <p><strong>Location:</strong> DEARBORN, MI</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/kassem-ataya-276216243/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com/Kasataya" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </div>
+      <a href="/assets/Resume.pdf" class="btn download-btn" target="_blank" rel="noopener noreferrer">Download Resume</a>
+    </div>
+</section>
+  
+  <footer>
+    <p>© 2025 Kassem Ataya. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
